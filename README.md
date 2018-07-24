@@ -8,18 +8,19 @@ Day1:
 1. Write a tax calculator by using python Accept annual income,
 investments done by a person Annual income – investments = taxable income 
 Ask user Any loan taken. 
-If yes then accept principle amt of loan Taxable income – principle loan = new taxable income 
+If yes then accept principle amt of loan Taxable 
+principle loan = new taxable income 
 Calculate tax using following slabs 
-➢ <2.5 	lakhs						no tax 
-➢  2.5 	lakhs 	and <= 5 lakhs then 10% 
-➢ >5	lakhs  	and < 10 lakhs then 20% 
-➢ Else 30% 
+<2.5 	lakhs						no tax 
+2.5 	lakhs 	and <= 5 lakhs then 10% 
+>5	lakhs  	and < 10 lakhs then 20% 
+Else 30% 
 
 2. Accept marks for 6 subjects from user, calculate percentage  and display grade 
-<50			fail 
+Less than 50	fail 
 >=50&<=60  	third 
->60&<=70 	second 
->70&<=80  	first 
+>60&<=70 		second 
+>70&<=80  		first 
 Else distinction 
 
 3 . Write a program that asks the user how many days are in a particular month, 
@@ -35,13 +36,11 @@ S	M	T	W	T	F	S
 
 4.  Display
          
- *  	1      1                
- **		1 1	   1 3
- ***	1 1 1  1 3 5
+   	1		1                
+	1 1		1 3
+	1 1 1		1 3 5
  
-5.  Accept a string from user Accept another string from user Check whether substring – 
-if yes display position Then accept 2 numbers from user Splice the string at that 
-position Accept a character from user Split the  string at the character Display 
+5.  Accept a string from user Accept another string from user Check whether substring if yes display position Then accept 2 numbers from user Splice the string at that position Accept a character from user Split the  string at the character Display 
 string in uppercase and lowercase 
 
 6.  Ask user how many numbers you want to enter accept those many numbers from user and
@@ -104,15 +103,15 @@ Day4:
 Q. 2. Write a program that contains a function that has one parameter, n, representing an integer greater than 0. The function should return n! (n factorial). Then write a main function that calls this function with the values 1 through 20, one at a time, printing the returned results. This is what your output should look like: 1 1 2 2 3 6 4 24 5 120 6 720 7 5040 8 40320 9 362880 10 3628800 
  
 Q. 3. We can define sum from 1 to x (i.e. 1 + 2 + ... + x) recursively as follows for integer 
-x ≥ 1: 1, 
+x > 1: 1, 
 if x = 1 x + sum from 1 to x-1 
 if x > 1 Complete the following Python program to compute the sum 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 
 recursively: 
 def main(): 
-# compute and print 1 + 2 + ... + 10 
+compute and print 1 + 2 + ... + 10 
 print sum(10) 
 def sum(x): 
-# you complete this function recursively main()
+you complete this function recursively main()
 
 Q. 4. Define a function overlapping() that takes two lists and returns True if they have at least one member in common, 
 False otherwise. 
